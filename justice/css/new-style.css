@@ -1,0 +1,28 @@
+.gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
+    color: rgb(4, 100, 44);
+  }
+
+.color-title{
+    color: rgb(36, 107, 65);
+}
+
+.color-subtitle{
+    color: rgb(72, 75, 73);
+}
+
+.gris{
+    color: #888;
+  }
+  
+  .green{
+    color: #013a2;
+  
+  }
+
+#PrincipalPartner{
+    height: 350px;
+}
+
+#footer{
+    background-color: rgb(1, 75, 97);
+}
