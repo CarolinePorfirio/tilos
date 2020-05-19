@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Verdana, Geneva, serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -60,7 +60,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Open Sans", Arial, sans-serif;
+  /*font-family: "Open Sans", Arial, sans-serif;*/
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -82,11 +82,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .gtco-nav {
   position: fixed;
+  background-color: #fff;
   top: 0;
   margin: 0;
-  padding: 0;
+  padding-left: 150px;
   width: 100%;
-  padding: 20px 0;
+  /*padding: 20px 0;*/
   z-index: 1001;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -99,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav #gtco-logo {
   font-size: 30px;
-  line-height: 1;
+  line-height: 0;
   margin: 0;
   padding: 0;
   font-weight: bold;
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.2s;
 }
 .gtco-nav #gtco-logo a {
-  padding: 0px 10px;
+  /*padding: 0px 100px;*/
   color: #fff;
   font-weight: 700;
   -webkit-transition: 0.4s;
@@ -136,11 +137,12 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .gtco-nav ul li a {
-  font-size: 12px;
-  padding: 30px 10px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 400 !important;
+  font-size: 15px;
+  padding: 20px 5px;
+  margin-right: 100px;
+  text-transform: capitalize;
+  color: black;/*rgba(255, 255, 255, 0.5);*/
+  font-weight: 600 !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -406,6 +408,16 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   width: 100%;
 }
+
+.gtco-cover-map {
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
 .gtco-cover a {
   color: #7ED321;
 }
@@ -1293,6 +1305,8 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+  text-transform: uppercase;
+
 }
 
 
