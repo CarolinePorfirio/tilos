@@ -736,6 +736,8 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
   position: relative;
 }
+
+
 .gtco-contact-info ul li:before {
   color: #7ed321;
   position: absolute;
@@ -1309,6 +1311,14 @@ form label {
 
 }
 
+.gris{
+  color: #888;
+}
+
+.green{
+  color: #013a2;
+
+}
 
 .section-title {
   padding-bottom: 40px;
