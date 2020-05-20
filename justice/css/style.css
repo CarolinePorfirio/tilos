@@ -1326,7 +1326,7 @@ form label {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #03664d;
+  background: #15655c;
   margin: 4px 10px;
 }
 
@@ -1334,11 +1334,10 @@ form label {
   margin: 0;
   margin: 0;
   font-size: 36px;
-  font-weight: 700;
-  font-style: bold;
+  font-weight: 900;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #03664d;
+  color: #15655c;
 }
 
 .align-center{
