@@ -95,15 +95,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 .gtco-nav #gtco-logo {
   font-size: 30px;
   line-height: 0;
+  height: auto;
   margin: 0;
-  padding: 0;
   font-weight: bold;
+}
+.gtco-nav img{
+  height: 80px;
+  width: auto;
 }
 .gtco-nav #gtco-logo em {
   color: #fff;
@@ -114,7 +118,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.2s;
 }
 .gtco-nav #gtco-logo a {
-  /*padding: 0px 100px;*/
+  
   color: #fff;
   font-weight: 700;
   -webkit-transition: 0.4s;
@@ -127,21 +131,22 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .gtco-nav ul {
-  padding: 0;
-  margin: 1px 0 0 0;
+  padding: 1px 5px;
+  margin: 20px 0 0 0;
 }
 .gtco-nav ul li {
-  padding: 0;
+  padding: 1px 5px;
   margin: 0;
   list-style: none;
   display: inline;
 }
 .gtco-nav ul li a {
   font-size: 15px;
-  padding: 20px 5px;
-  margin-right: 100px;
+  padding: 1px 5px;
+  margin-right: 10px;
+  position: relative;
   text-transform: capitalize;
-  color: black;/*rgba(255, 255, 255, 0.5);*/
+  color: #000;/*rgba(255, 255, 255, 0.5);*/
   font-weight: 600 !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -196,7 +201,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 .gtco-nav ul li.has-dropdown .dropdown li a {
-  padding: 2px 0;
+  padding: 1px 5px;
   display: block;
   color: #999999;
   line-height: 1.2;
@@ -218,7 +223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .gtco-nav ul li.btn-cta a span {
   border: none !important;
   background: rgba(255, 255, 255, 0.2);
-  padding: 4px 20px;
+  padding: 1px 5px;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -245,11 +250,11 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
 }
 .gtco-nav.scrolled ul {
-  padding: 0;
+  padding: 1px 5px;
   margin: 1px 0 0 0;
 }
 .gtco-nav.scrolled ul li {
-  padding: 0;
+  padding: 1px 5px;
   margin: 0;
   list-style: none;
   display: inline;
@@ -261,7 +266,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
 }
 .gtco-nav.scrolled ul li.active > a {
-  color: #7ED321 !important;
+  color: #000 !important;
 }
 .gtco-nav.scrolled ul li.btn-cta a {
   color: #fff;
@@ -417,6 +422,15 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   width: 100%;
 }
+/*
+height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: initial;
+  float: left;
+  margin-left: -100px;
+  width: 117%;
+*/
 
 .gtco-cover a {
   color: #7ED321;
