@@ -922,7 +922,7 @@ pre code {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
+  padding-left: 55px;
   padding-right: 15px;
 }
 
@@ -967,7 +967,7 @@ pre code {
 }
 
 .col-xs-10 {
-  width: 83.33333%;
+  width: 80.33333%;
 }
 
 .col-xs-11 {
@@ -1144,7 +1144,7 @@ pre code {
   }
 
   .col-sm-2 {
-    width: 16.66667%;
+    width: 17.66667%;
   }
 
   .col-sm-3 {
@@ -1353,7 +1353,8 @@ pre code {
   }
 
   .col-md-2 {
-    width: 16.66667%;
+    margin-right: -3%;
+    width: 18.66667%;
   }
 
   .col-md-3 {
@@ -1361,7 +1362,14 @@ pre code {
   }
 
   .col-md-4 {
+    text-align: left;
     width: 33.33333%;
+    font-size: 12px;
+  }
+
+  .col-md-4 h3{
+    padding-top: 12%;
+    font-weight: 20%;
   }
 
   .col-md-5 {
@@ -1421,7 +1429,22 @@ pre code {
   }
 
   .col-md-pull-6 {
-    right: 50%;
+    right: 30%;
+    text-align: left;
+    width: 30%;
+  }
+
+  .col-md-pull-6-1 {
+    right: 5%;
+    text-align: left;
+    width: 35%;
+  }
+
+  .col-md-pull-6-2 {
+    margin-top: -25%;
+    left: 10%;
+    text-align: right;
+    width: 35%;
   }
 
   .col-md-pull-7 {
@@ -1433,7 +1456,7 @@ pre code {
   }
 
   .col-md-pull-9 {
-    right: 75%;
+    right: 65%;
   }
 
   .col-md-pull-10 {
@@ -1477,15 +1500,30 @@ pre code {
   }
 
   .col-md-push-7 {
-    left: 58.33333%;
+    left: 56.33333%;
   }
 
+  .col-md-push-7-1 {
+    left: 18.33333%;
+  }
+
+  .col-md-push-7-2 {
+    right: 5.33333%;
+  }
+
+  .col-md-push-7-3 {
+    right: 7.33333%;
+    width: 50%;
+  }
+ 
   .col-md-push-8 {
     left: 66.66667%;
   }
 
   .col-md-push-9 {
-    left: 75%;
+    right:  5%;
+    text-align: right;
+    width: 35%;
   }
 
   .col-md-push-10 {

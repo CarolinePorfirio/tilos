@@ -3,8 +3,16 @@
     color: rgb(4, 100, 44);
   }
 
+.bold{
+    font-weight: bold;
+}
+
 .color-title{
-    color: rgb(36, 107, 65);
+    color: #216c58;
+}
+
+.gris2{
+    color: #777777;
 }
 
 .col-centered{
@@ -16,6 +24,106 @@
     width: 100%;
     height: 100%;
     padding-top: 0%;
+}
+
+.icono-trabajo{
+    width: 130px;
+    height: auto;
+    padding-top: 10%;
+}
+
+.centerdad{
+    display: flex;
+    align-items: center;
+}
+
+.center-element{
+    margin: 0 auto;
+}
+
+.margin-1{
+    margin: 100px;
+}
+
+.margin-0{
+    padding: 2px;
+}
+
+.qs-1{
+    position: relative;
+    right: 50px;
+}
+
+.qs-2{
+    position: relative;
+    right: 60px;
+    top: 60px;
+}
+
+.img-about{
+    top: -50px;
+    position: relative;
+    padding: 5px;
+
+}
+
+.text1{
+    font-size: large;
+    color: #777777;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.text2{
+    color: #585858;
+    text-align: left;
+}
+
+.text-center{
+    text-align: center; 
+}
+
+.text-left{
+    text-align: left; 
+}
+
+.text-right{
+    text-align: right; 
+}
+
+.col-md-pull-9{
+    left: 5%;
+    text-align: left;
+    width: 35%;
+}
+
+#gtco-about .img-shadow {
+    position: relative;
+    background: #15655c;
+    width: 100%;
+    float: left;
+}
+
+#gtco-about .img-shadow img {
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+
+#gtco-about .img-shadow2 {
+    position: relative;
+    background: #cd062d;
+    width: 100%;
+    float: left;
+}
+
+#gtco-about .img-shadow2 img {
+    position: relative;
+    top: -20px;
+    left: -20px;
 }
 
 #gtco-our-team .gtco-team-reverse .img-shadow,
@@ -119,9 +227,23 @@
     text-decoration: none
 }
 
+#PrincipalPartner{
+    image-rendering: auto;
+    shape-image-threshold: 20;
+    height: 250px;
+}
+  
 #othersPartners{
-      background-color: #f2f2f2;
-      padding-top: 10%;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.otros-partnes{
+    padding-left: 10%;
+}
+
+#othersPartners h3{
+      padding: 20px;
   }
 
 
@@ -213,6 +335,7 @@
 
   #footer .footer-top .footer-newsletter form {
     margin-top: 30px;
+    margin-bottom: 0px;
     background: #fff;
     padding: 6px 10px 6px 15px;
     position: relative;
@@ -278,7 +401,9 @@
 
   #footer .copyright {
   border-top: 1px solid #888;
+  width: 100%;
   text-align: center;
+  font-size: smaller;
   padding-top: 20px;
   color: #fff;
 }
